@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/feedPostFragment"
+        android:enabled="true"
+        android:icon="@drawable/bottom_home_icon"
+        android:title=""/>
+
+    <item
+        android:id="@+id/gridPhotoViewFragment"
+        android:enabled="true"
+        android:icon="@drawable/bottom_search_icon"
+        android:title="" />
+
+    <item
+        android:id="@+id/reelsFragment"
+        android:enabled="true"
+        android:icon="@drawable/bottom_reels_icon"
+        android:title=""/>
+
+
+    <item
+        android:id="@+id/notificationsFragment"
+        android:enabled="true"
+        android:icon="@drawable/bottom_notification_icon"
+        android:title=""/>
+
+
+    <item
+        android:id="@+id/profileFragment"
+        android:enabled="true"
+        android:icon="@drawable/bottom_profile_icon"
+        android:title="" />
+
+
+
+
+
+
+
+</menu>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/feedPostFragment">
+
+    <fragment
+        android:id="@+id/feedPostFragment"
+        android:name="com.example.instagramdemo.fragments.FeedPostFragment"
+        android:label="FeedPostFragment" >
+        <action
+            android:id="@+id/action_feedPostFragment_to_editProfileFragment"
+            app:destination="@id/editProfileFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/editProfileFragment"
+        android:name="com.example.instagramdemo.fragments.EditProfileFragment"
+        android:label="EditProfileFragment" />
+    <fragment
+        android:id="@+id/profileFragment"
+        android:name="com.example.instagramdemo.fragments.ProfileFragment"
+        android:label="ProfileFragment" />
+    <fragment
+        android:id="@+id/gridPhotoViewFragment"
+        android:name="com.example.instagramdemo.fragments.GridPhotoViewFragment"
+        android:label="fragment_grid_photo_view"
+        tools:layout="@layout/fragment_grid_photo_view" />
+    <fragment
+        android:id="@+id/reelsFragment"
+        android:name="com.example.instagramdemo.fragments.ReelsFragment"
+        android:label="fragment_reels"
+        tools:layout="@layout/fragment_reels" />
+    <fragment
+        android:id="@+id/notificationsFragment"
+        android:name="com.example.instagramdemo.fragments.NotificationsFragment"
+        android:label="fragment_notifications"
+        tools:layout="@layout/fragment_notifications" />
+</navigation>
